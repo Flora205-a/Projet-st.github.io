@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Saint-Valentin ❤️</title>    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #8b0000, #ff4d6d);
+      color: #fff;
+      overflow-x: hidden;
+    }
+
+    section {
+      padding: 80px 10%;
+    }
+
+    
+    .hero {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      min-height: 100vh;
+      gap: 40px;
+    }
+
+    .hero-text {
+      max-width: 500px;
+      animation: fadeLeft 1.2s ease;
+    }
+
+    .hero-text h1 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+    }
+
+    .hero-text p {
+      font-size: 1.1rem;
+      margin-bottom: 30px;
+      opacity: 0.9;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 15px 30px;
+      background: #fff;
+      color: #b3001b;
+      font-weight: 600;
+      border-radius: 30px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #ffe6ea;
+      transform: scale(1.05);
+    }
+
+    .hero-img {
+      animation: fadeRight 1.2s ease;
+    }
+
+    .hero-img img {
+      width: 380px;
+      max-width: 100%;
+    }
+
+    
+    .features {
+      background: #fff;
+      color: #333;
+      text-align: center;
+    }
+
+    .features h2 {
+      font-size: 2.2rem;
+      margin-bottom: 50px;
+      color: #b3001b;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 25px;
+    }
+
+    .card {
+      background: #ffe6ea;
+      padding: 30px;
+      border-radius: 20px;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+    }
+
+    
+    .message {
+      text-align: center;
+      max-width: 800px;
+      margin: auto;
+      animation: fadeUp 1.2s ease;
+    }
+
+    .message h2 {
+      font-size: 2.2rem;
+      margin-bottom: 20px;
+    }
+
+    .message p {
+      font-size: 1.1rem;
+      line-height: 1.8;
+      opacity: 0.95;
+    }
+
+  
+    .cta {
+      background: #fff;
+      color: #b3001b;
+      text-align: center;
+      border-radius: 40px 40px 0 0;
+    }
+
+    .cta h2 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+
+    
+    @keyframes fadeLeft {
+      from { opacity: 0; transform: translateX(-50px); }
+      to { opacity: 1; transform: translateX(0); }
+    }
+
+    @keyframes fadeRight {
+      from { opacity: 0; transform: translateX(50px); }
+      to { opacity: 1; transform: translateX(0); }
+    }
+
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(40px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    
+    @media (max-width: 900px) {
+      .hero {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .hero-text h1 {
+        font-size: 2.3rem;
+      }
+    }
+  </style></head>
+<body>  <section class="hero">
+    <div class="hero-text">
+      <h1>Cette Saint-Valentin, fais battre son cœur plus fort ❤️</h1>
+      <p>Un gros nounours rouge, doux et irrésistible, pour exprimer ton amour sans dire un mot.</p>
+      <a href="#" class="btn">Je veux lui faire plaisir 💝</a>
+    </div><div class="hero-img">
+  <img src="nounours.png" alt="Nounours Saint-Valentin">
+</div>
+
+  </section>    <section class="features">
+    <h2>Pourquoi ce nounours est spécial ?</h2>
+    <div class="cards">
+      <div class="card">🧸 Ultra doux pour des câlins infinis</div>
+      <div class="card">❤️ Rouge passion, symbole de l'amour</div>
+      <div class="card">🎁 Cadeau parfait pour surprendre</div>
+      <div class="card">Un souvenir qui dure dans le temps</div>
+    </div>
+  </section>   <section class="message">
+    <h2>Plus qu’un cadeau, une émotion</h2>
+    <p>
+      Ce nounours devient une présence quand tu n’es pas là,
+      un rappel quotidien de ton amour et un sourire à chaque regard.
+      Parce que l’amour mérite d’être ressenti, pas seulement dit.
+    </p>
+  </section>   <section class="cta">
+    <h2>Fais-lui vivre un moment inoubliable 💘</h2>
+    <a href="mailto: dilanneahoussinou@gmail.com" class="btn">Commander maintenant</a>
+  </section></body>
+</html>
